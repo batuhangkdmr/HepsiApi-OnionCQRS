@@ -11,7 +11,7 @@ namespace HepsiAPI.Domain.Entities
     {
         public required string Title {  get; set; }
         public required string Description { get; set; }
-        public required string BrandId { get; set; }
+        public required int BrandId { get; set; }
         public required decimal Price { get; set; }
         public required decimal Discount { get; set; }
         public Brand Brand { get; set; }
